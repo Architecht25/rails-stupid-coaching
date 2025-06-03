@@ -13,3 +13,63 @@
  *= require_tree .
  *= require_self
  */
+/* app/assets/stylesheets/stupid.css */
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #16a085;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
